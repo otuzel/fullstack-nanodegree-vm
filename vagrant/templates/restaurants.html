@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Restaurants</h1>
+        {% for r in restaurants %}
+            <div>
+                <p>{{r.name}}</p>
+            </div>
+        {% endfor %}
+    </body>
+</html>
